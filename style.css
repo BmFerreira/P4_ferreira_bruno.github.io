@@ -11,9 +11,7 @@ a,
 button {
     transition: all .3s ease-in-out;
     outline: none!important;
-
-
-    text-decoration: none;
+    text-decoration: none;  
 }
 
 a:hover {
@@ -332,10 +330,6 @@ a:hover {
     float: left;
     margin-top: 4px;
     font-size: 16px;
-
-
-    padding: 20px ;
-    list-style: none;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -666,10 +660,6 @@ a {
 
 .container {
     max-width: 1000px;
-
-
-    margin-right: auto;
-    margin-left: auto;
 }
 
 .hero-bloc-text {
@@ -691,7 +681,7 @@ a {
 }
 
 p {
-    /**font-size: 11px;**/
+    font-size: 11px;
     font-size: 15px;
 }
 
@@ -792,7 +782,7 @@ h4 {
 }
 
 .tc-white {
-    color: #FFFFFF!important;
+    color: #f7e9e2!important;
 }
 
 /**.tc-white {
@@ -801,7 +791,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -850,6 +840,11 @@ h4 {
 
 
 .text-center {
+    text-align: center;
+    color: #333333!important;
+}
+
+.center {
     text-align: center;
 }
 
@@ -912,12 +907,6 @@ h4 {
     }
 
 
-   /** .bloc {
-        padding-left: 100%;
-        padding-right: 100%;
-    }**/
-
-
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -925,12 +914,7 @@ h4 {
     }
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
-        padding: 0 20px;
-        
-        
-        /**padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right); **/
-        
+        padding: 0 20px;  
     }
 
 
