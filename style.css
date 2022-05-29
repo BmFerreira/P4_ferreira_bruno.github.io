@@ -92,7 +92,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("/convertid_img/webp/texture-paper.webp");
+    background: url("convertid_img/webp/texture-paper.webp");
     background-size: 280px 280px;
 }
 
@@ -837,7 +837,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("/convertid_img/webp/image-de-presentation.webp");
+    background-image: url("convertid_img/webp/image-de-presentation.webp");
 }
 
 
