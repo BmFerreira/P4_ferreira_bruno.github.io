@@ -773,6 +773,10 @@ h4 {
     background-color: #FFFFFF;
 }
 
+.bgc-dark-slate-blue {
+    background-color: #364577;
+}
+
 .bgc-atomic-tangerine {
     background-color: #F3976C;
 }
@@ -840,7 +844,9 @@ h4 {
     background-image: url("convertid_img/webp/image-de-presentation.webp");
 }
 
-
+.size {
+    font-size: 20px;
+}
 
 .text-center {
     text-align: center;
