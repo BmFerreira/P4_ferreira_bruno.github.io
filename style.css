@@ -866,6 +866,14 @@ h4 {
     font-size: 20px;
 }
 
+.sizeLogo {
+    width: 100px;
+}
+
+.sizeMonochrome {
+    height: 40px;
+}
+
 
 @media (max-width: 1024px) {
     .bloc {
