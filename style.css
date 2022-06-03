@@ -19,15 +19,6 @@ a:hover {
     cursor: pointer;
 }
 
-/**page-loading-blocs-notifaction {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    z-index: 100000;
-    background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
-}**/
-
 .bloc {
     width: 100%;
     clear: both;
@@ -655,7 +646,6 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    /**color: #575757!important;**/
 }
 
 .container {
@@ -898,18 +888,6 @@ h4 {
     }
 }
 
-/**@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-    .b-parallax {
-        background-attachment: scroll;
-    }
-}
-
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
-    .b-parallax {
-        background-attachment: scroll;
-    }
-}**/
-
 @media (max-width: 991px) {
     .container {
         width: 100%;
@@ -922,8 +900,6 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-
-
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -933,8 +909,6 @@ h4 {
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;  
     }
-
-
 }
 
 @media (max-width: 767px) {
@@ -1088,8 +1062,3 @@ h4 {
         text-align: center;
     }
 }
-
-
-
-
-
